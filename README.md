@@ -1,2 +1,0 @@
-# WSL
-WSL-Kali REP
