@@ -5,6 +5,7 @@
 
 // Declaring Type and Constants
 
+var number:string = 'e'
 type ExNum = number     // Declaring the DataType
 let ExNum = 100           // Daclaring the Constant
 console.log(ExNum)
@@ -50,7 +51,8 @@ type ArrayEx = [
 const ArrayEx = {
     Prop1: 9, 
     Prop2: 'ExArrayString', 
-    Prop3: true}
+    Prop3: true
+}
 
 console.log(ArrayEx.Prop1, ArrayEx.Prop2, ArrayEx.Prop3)
 
