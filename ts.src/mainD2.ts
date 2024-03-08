@@ -45,13 +45,14 @@ let LogMsgv3 = function (message: any):any {
 LogMsgv3(AddFunc(9, 10))
 
 type example = (one: any) => any
-let example = ['1']
-const Verifier =  function(message: any): any {
+let example = '1'
+const Verifier =  function(message: string): any {
     if (typeof example == 'string') return 'This is a string'
     if (typeof example == 'number') return 'This is not a string, This might be a number'
     if (typeof example == 'boolean') return 'This is not a string, This might be a boolean'
-    throw new Error(message)
 }
+
+LogMsgv2(Verifier)
 
 //// Loops 
 
