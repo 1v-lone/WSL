@@ -1,0 +1,15 @@
+/home/adi/.vscode-server/extensions/ruakr.ftp-kr-1.4.5
+
+[ftp-kr Reporting]
+platform: linux
+arch: x64
+
+[Error]
+message: /home/adi/main_git/WSL/.gitignore ftp-kr is not inited
+
+[Stack Trace]
+Error: /home/adi/main_git/WSL/.gitignore ftp-kr is not inited
+    at Function.fromFile (/home/adi/.vscode-server/extensions/ruakr.ftp-kr-1.4.5/src/vsutil/ws.ts:162:27)
+    at runCommand (/home/adi/.vscode-server/extensions/ruakr.ftp-kr-1.4.5/src/vsutil/cmd.ts:69:35)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cw.h (file:///home/adi/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:115:32825)
