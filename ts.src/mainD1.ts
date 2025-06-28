@@ -3,7 +3,7 @@
 // On Day 2, You should take a notebook and understand the mindset bethind the framework and the formats of the elements...
 // credit: https://www.youtube.com/watch?v=gieEQFIfgYc from chapt 1 to 2.4
 
-// Declaring Type and Constants  
+// Declaring Type and Constants  ..
 
 var number:string = 'e'
 type ExNum = number     // Declaring the DataType
